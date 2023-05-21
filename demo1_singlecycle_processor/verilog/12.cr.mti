@@ -1,0 +1,217 @@
+/filespace/c/cli649/ece552/Project/demo1/verilog/rotate_right.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/rotate_right.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rotate_right
+
+Top level modules:
+	rotate_right
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc
+
+Top level modules:
+	proc
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/ALU_cntrl.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/ALU_cntrl.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ALU_cntrl
+
+Top level modules:
+	ALU_cntrl
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module branch_comp
+
+Top level modules:
+	branch_comp
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/shifter.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/shifter.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/and2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/and2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module and2
+
+Top level modules:
+	and2
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.syn.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.syn.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/fullAdder1b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/fullAdder1b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module fullAdder1b
+
+Top level modules:
+	fullAdder1b
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/and3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/and3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module and3
+
+Top level modules:
+	and3
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/B16register.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/B16register.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module B16register
+
+Top level modules:
+	B16register
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/shift_right_logic.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/shift_right_logic.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shift_right_logic
+
+Top level modules:
+	shift_right_logic
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/extend.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/extend.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/dff.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/dff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module wb
+
+Top level modules:
+	wb
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/rotate_left.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/rotate_left.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rotate_left
+
+Top level modules:
+	rotate_left
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc_hier_bench
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v(128): near "assign": syntax error, unexpected assign.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v(127): (vlog-13205) Syntax error found in the scope following 'adsda'. Is there a missing '::'?
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/not1.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/not1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/alu.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/alu.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/or2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/or2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module or2
+
+Top level modules:
+	or2
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/or3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/or3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module or3
+
+Top level modules:
+	or3
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/cla4b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/cla4b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla4b
+
+Top level modules:
+	cla4b
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/err_check.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/err_check.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module err_check
+
+Top level modules:
+	err_check
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/shift_left.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/shift_left.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shift_left
+
+Top level modules:
+	shift_left
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/rf.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/rf.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/cla16b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/cla16b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla16b
+
+Top level modules:
+	cla16b
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/xor2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/xor2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}}

@@ -1,0 +1,26 @@
+/*
+   CS/ECE 552 Spring '22
+  
+   Filename        : memory.v
+   Description     : This module contains all components in the Memory stage of the 
+                     processor.
+*/
+`default_nettype none
+module memory (
+   input wire clk, rst,
+   input wire HALT,
+   input wire MemRead,
+   input wire MemWrite,
+   input wire [15:0]MemWrite_data,
+   input wire [15:0]alu_result,
+// input wire [15:0]Memaddress
+   output reg [15:0]MemRead_data
+
+);
+   assign Memaddress=alu_result;
+
+   // TODO: Your code here
+   //module memory2c (data_out, data_in, addr, enable, wr, createdump, clk, rst);
+   memory2c mmc(.data_out(MemRead_data), .data_in(MemWrite_data), .addr(), .enable((MemRead)|(MemWrite)), .wr(MemWrite), .createdump(HALT), .clk(clk), .rst(rst));
+endmodule
+`default_nettype wire

@@ -1,0 +1,53 @@
+/*
+   CS/ECE 552 Spring '22
+  
+   Filename        : fetch.v
+   Description     : This is the module for the overall fetch stage of the processor.
+*/
+`default_nettype none
+module fetch (
+   // TODO: Your code here
+   input wire clk, rst,
+   input wire [15:0]PC_cur,//current PC
+   input wire [15:0]ext_result,
+   input wire HALT,
+   input wire [15:0]alu_result,
+   input wire JR,  
+   input wire bcomp_en,
+   input wire Jump,
+   output reg [15:0]PC_nxt_syn,//PC should be output from the dff to make sure the synchronus
+   output reg [15:0]PC_2_JAL,//for JAL AND JALR reserve PC+2 into R7
+   output reg [15:0] full_instr,
+   output reg fetch_err
+);
+
+   //nxt_PC addr could be:
+   //cur_PC: HALT
+   
+   //Rs+I(sign extended): from alu, the alu_result JR, JALR
+   //PC+2+D(sign extended) : J, JAL
+   //PC+2+I(sign extended): BEQZ, BNEZ, BLTZ, BGEZ
+   //PC+2: others
+
+   wire [15:0]PC_nxt_asyn;
+   assign PC_2_JAL=PC_cur+16'd2;
+   
+   //PC_overflow err check
+   wire [16:0] PC_nxt_asyn17;//for err checking
+   assign PC_nxt_asyn17=(HALT)? PC_cur:
+                      (JR)? alu_result: 
+                      (bcomp_en | Jump)? PC_cur+17'd2+{ext_result}://both the D and I sign extended has been included
+                      PC_cur+17'd2;
+   assign PC_nxt_asyn=PC_nxt_asyn17[15:0];
+   assign fetch_err=PC_nxt_asyn[16];
+
+   dff PC_addr(.d(PC_nxt_asyn), .q(PC_nxt_syn), .clk(clk), .rst(rst));
+
+   //module memory2c (data_out, data_in, addr, enable, wr, createdump, clk, rst);
+
+   memory2c Instruction_Memory(.data_out(tr) ,.data_in(16'd0), .addr(PC_cur), .enable(~rst), .wr(1'b0), .createdump(1'b0), .clk(clk), .rst(rst));//it should be set with the flag signal of the                    
+
+
+
+endmodule
+`default_nettype wire

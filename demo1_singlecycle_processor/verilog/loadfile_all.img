@@ -1,0 +1,295 @@
+Reading line: // finalTest
+Reading line: //
+Reading line: // Extra tests beyond the first four programs.
+Reading line: // For the single-cycle implementation.
+Reading line: //
+Reading line: // CS/ECE 552, Spring 2006
+Reading line: // Andy Phelps  30 March 2006
+Reading line: // Modified 
+Reading line: // Pratap Ramamurthy 6th May, 2007
+Reading line: 
+Reading line: // Rotate left by 16, 15, 14,...1 bits.
+Reading line: 
+Reading line: lbi r0, 16          // r0 = 0x0010  // loop count
+Reading line: lbi r1, 1           // r1 = 0x0001
+Reading line: lbi r2, 2           // r2 = 0x0002
+Reading line: lbi r3, 4           // r3 = 0x0004
+Reading line: lbi r4, 8           // r4 = 0x0008
+Reading line: lbi r5, 16          // r5 = 0x0010
+Reading line: 
+Reading line: .loop:
+Reading line: rol r1, r1, r0      // 
+Reading line: rol r2, r2, r0      // 
+Reading line: rol r3, r3, r0      // 
+Reading line: rol r4, r4, r0      // 
+Reading line: rol r5, r5, r0      // 
+Reading line: addi r0, r0, -1     // 
+Reading line: bnez r0, .loop       // 
+Reading line: 
+Reading line: roli r1, r1, 8      // r1 = 0x0001
+Reading line: roli r2, r2, 8      // r2 = 0x0002
+Reading line: roli r3, r3, 8      // r3 = 0x0004
+Reading line: roli r4, r4, 8      // r4 = 0x0008
+Reading line: roli r5, r5, 8      // r5 = 0x0010
+Reading line: add r1, r1, r2      // r1 = 0x0003
+Reading line: add r1, r1, r3      // r1 = 0x0007
+Reading line: add r1, r1, r4      // r1 = 0x000f
+Reading line: add r1, r1, r5      // r1 = 0x001f
+Reading line: addi r1, r1, 1      // r1 = 0x0020
+Reading line: roli r1, r1, 11     // r1 = 0x0001
+Reading line: 
+Reading line: lbi r0, U.DataArea
+Reading line: slbi r0, L.DataArea // r0 = .DataArea
+Reading line: st r1, r0, 0        // DataArea = 0x0001
+Reading line: 
+Reading line: // Factorial test from Casey:
+Reading line: 
+Reading line: // Load the input parameter into r1 (can be up to 8):
+Reading line: lbi  r1, 6           // r1 = 0x0006
+Reading line: addi r4,r1,0         // Initialize the result to the input param r1
+Reading line: 
+Reading line: .factorialloop:
+Reading line: 
+Reading line: addi r5,r1,-2        // Multiply by r1-1, so (r1-2)..0 will be r1-1 times
+Reading line: addi r6,r4,0         // r6 will preserve the original r4
+Reading line: beqz r5,.storeresult // Stop when we are about to multiply by zero!
+Reading line: 
+Reading line: .multiplyloop:
+Reading line: 
+Reading line: add r4,r4,r6          // Add r4 to r6 (original r4) and store in r4
+Reading line: addi r5,r5,-1         // Subtract one from multiplication loop counter
+Reading line: bnez r5,.multiplyloop // Keep multiplying until counter reaches zero
+Reading line: 
+Reading line: addi r1,r1,-1         // Subtract one from the input parameter so it equals n-1 
+Reading line: j .factorialloop      // Keep going until the input param equals one
+Reading line: 
+Reading line: .storeresult:
+Reading line: 
+Reading line: lbi r7, U.DataArea
+Reading line: slbi r7, L.DataArea
+Reading line: // Store the result to memory
+Reading line: st r4,r7,2            // DataArea+2 = 0x02d0
+Reading line: 
+Reading line: // Loop to add up a range of memory;
+Reading line: // complement the sum, then add it all
+Reading line: // on again to sum to 0xffffffff.
+Reading line: // r0:r1 is the accumulator.
+Reading line: 
+Reading line: lbi r5, 0   // starting location to read data from
+Reading line: lbi r6, 0x10  // loop downcounter
+Reading line: lbi r0, 0   // initialize accumulator
+Reading line: lbi r1, 0   // initialize accumulator
+Reading line: 
+Reading line: .addloop:
+Reading line: ld r2, r5, 0
+Reading line: ld r3, r5, 2
+Reading line: addi r5, r5, 4
+Reading line: jal .Add32 // Call addition subroutine
+Reading line: addi r6, r6, -1
+Reading line: bnez r6, .addloop
+Reading line: 
+Reading line: // 1's complement the accumulator:
+Reading line: lbi r6, -1
+Reading line: xor r0, r0, r6
+Reading line: xor r1, r1, r6
+Reading line: 
+Reading line: lbi r5, 0   // starting location to read data from
+Reading line: lbi r6, 0x10  // loop downcounter
+Reading line: 
+Reading line: .subloop:
+Reading line: ld r2, r5, 0
+Reading line: ld r3, r5, 2
+Reading line: addi r5, r5, 4
+Reading line: jal .Add32 // Call addition subroutine
+Reading line: addi r6, r6, -1
+Reading line: bnez r6, .subloop
+Reading line: 
+Reading line: lbi r7, U.DataArea
+Reading line: slbi r7, L.DataArea
+Reading line: st r0, r7, 4    // DataArea+4 = 0xffff
+Reading line: st r1, r7, 6    // DataArea+6 = 0xffff
+Reading line: 
+Reading line: halt
+Reading line: 
+Reading line: /////////////////////////////////////
+Reading line: // Subroutine to do 32-bit addition:
+Reading line: // r0:r1 is the accumulator
+Reading line: // r2:r3 is added on
+Reading line: // r4 is a temp
+Reading line: // preserve r5, r6
+Reading line: 
+Reading line: .Add32:
+Reading line: sco r4, r1, r3
+Reading line: add r1, r1, r3
+Reading line: add r0, r0, r2
+Reading line: add r0, r0, r4
+Reading line: jr r7, 0        // return
+Reading line: 
+Reading line: halt
+Reading line: halt
+Reading line: halt
+Reading line: 
+Reading line: .DataArea:
+Reading line: halt          // 0x0001
+Reading line: halt          // 0x02d0
+Reading line: halt          // 0xffff
+Reading line: halt          // 0xffff
+Reading line: 
+Reading line: 
+@0
+c0
+10
+c1
+01
+c2
+02
+c3
+04
+c4
+08
+c5
+10
+d1
+06
+d2
+0a
+d3
+0e
+d4
+12
+d5
+16
+40
+1f
+68
+f2
+a1
+28
+a2
+48
+a3
+68
+a4
+88
+a5
+a8
+d9
+44
+d9
+64
+d9
+84
+d9
+a4
+41
+21
+a1
+2b
+c0
+00
+90
+94
+80
+20
+c1
+06
+41
+80
+41
+be
+44
+c0
+65
+0a
+dc
+d0
+45
+bf
+6d
+fa
+41
+3f
+27
+f0
+c7
+00
+97
+94
+87
+82
+c5
+00
+c6
+10
+c0
+00
+c1
+00
+8d
+40
+8d
+62
+45
+a4
+30
+24
+46
+df
+6e
+f4
+c6
+ff
+d8
+c2
+d9
+c6
+c5
+00
+c6
+10
+8d
+40
+8d
+62
+45
+a4
+30
+0e
+46
+df
+6e
+f4
+c7
+00
+97
+94
+87
+04
+87
+26
+00
+00
+f9
+70
+d9
+64
+d8
+40
+d8
+80
+2f
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00

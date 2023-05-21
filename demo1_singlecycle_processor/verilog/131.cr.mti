@@ -1,0 +1,93 @@
+/filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module branch_comp
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v(11): near ")": syntax error, unexpected ')'.
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/branch_comp.v(13): near "5": syntax error, unexpected INTEGER NUMBER.
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v(27): near "123": syntax error, unexpected INTEGER NUMBER.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/proc.v(29): Compiler directive `default_nettype is not allowed inside a module.
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/decode.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/decode.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module decode
+** Error: (vlog-13051) /filespace/c/cli649/ece552/Project/demo1/verilog/decode.v(106): Illegal digit for specified base in numeric constant.
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/decode.v(106): near "'d": syntax error, unexpected BASE, expecting ';'.
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.syn.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.syn.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/memory2c.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/dff.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/dff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/extend.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/extend.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module wb
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v(11): near "123": syntax error, unexpected INTEGER NUMBER.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/wb.v(13): Compiler directive `default_nettype is not allowed inside a module.
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc_hier_bench
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v(128): near "assign": syntax error, unexpected assign.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier_bench.v(127): (vlog-13205) Syntax error found in the scope following 'adsda'. Is there a missing '::'?
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/memory.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/memory.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/memory.v(12): near "123": syntax error, unexpected INTEGER NUMBER.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/memory.v(14): Compiler directive `default_nettype is not allowed inside a module.
+
+} {4.0 6.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module fetch
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v(18): near "input": syntax error, unexpected input, expecting ';'.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v(29): (vlog-2730) Undefined variable: 'OP_code'.
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v(30): near ")": syntax error, unexpected ')'.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/fetch.v(32): (vlog-13205) Syntax error found in the scope following 'PC_cur'. Is there a missing '::'?
+
+} {4.0 8.0} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/proc_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v {0 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module execute
+** Error: (vlog-13069) /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v(11): near "123": syntax error, unexpected INTEGER NUMBER.
+** Error: /filespace/c/cli649/ece552/Project/demo1/verilog/execute.v(13): Compiler directive `default_nettype is not allowed inside a module.
+
+} {4.0 6.0} {}}

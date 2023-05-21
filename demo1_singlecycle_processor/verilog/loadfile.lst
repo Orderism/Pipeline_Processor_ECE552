@@ -1,0 +1,138 @@
+          // finalTest
+          //
+          // Extra tests beyond the first four programs.
+          // For the single-cycle implementation.
+          //
+          // CS/ECE 552, Spring 2006
+          // Andy Phelps  30 March 2006
+          // Modified 
+          // Pratap Ramamurthy 6th May, 2007
+          
+          // Rotate left by 16, 15, 14,...1 bits.
+          
+0000 c010 lbi r0, 16          // r0 = 0x0010  // loop count
+0002 c101 lbi r1, 1           // r1 = 0x0001
+0004 c202 lbi r2, 2           // r2 = 0x0002
+0006 c304 lbi r3, 4           // r3 = 0x0004
+0008 c408 lbi r4, 8           // r4 = 0x0008
+000a c510 lbi r5, 16          // r5 = 0x0010
+          
+000c      .loop:
+000c d106 rol r1, r1, r0      // 
+000e d20a rol r2, r2, r0      // 
+0010 d30e rol r3, r3, r0      // 
+0012 d412 rol r4, r4, r0      // 
+0014 d516 rol r5, r5, r0      // 
+0016 401f addi r0, r0, -1     // 
+0018 68f2 bnez r0, .loop       // 
+          
+001a a128 roli r1, r1, 8      // r1 = 0x0001
+001c a248 roli r2, r2, 8      // r2 = 0x0002
+001e a368 roli r3, r3, 8      // r3 = 0x0004
+0020 a488 roli r4, r4, 8      // r4 = 0x0008
+0022 a5a8 roli r5, r5, 8      // r5 = 0x0010
+0024 d944 add r1, r1, r2      // r1 = 0x0003
+0026 d964 add r1, r1, r3      // r1 = 0x0007
+0028 d984 add r1, r1, r4      // r1 = 0x000f
+002a d9a4 add r1, r1, r5      // r1 = 0x001f
+002c 4121 addi r1, r1, 1      // r1 = 0x0020
+002e a12b roli r1, r1, 11     // r1 = 0x0001
+          
+0030 c000 lbi r0, U.DataArea
+0032 9094 slbi r0, L.DataArea // r0 = .DataArea
+0034 8020 st r1, r0, 0        // DataArea = 0x0001
+          
+          // Factorial test from Casey:
+          
+          // Load the input parameter into r1 (can be up to 8):
+0036 c106 lbi  r1, 6           // r1 = 0x0006
+0038 4180 addi r4,r1,0         // Initialize the result to the input param r1
+          
+003a      .factorialloop:
+          
+003a 41be addi r5,r1,-2        // Multiply by r1-1, so (r1-2)..0 will be r1-1 times
+003c 44c0 addi r6,r4,0         // r6 will preserve the original r4
+003e 650a beqz r5,.storeresult // Stop when we are about to multiply by zero!
+          
+0040      .multiplyloop:
+          
+0040 dcd0 add r4,r4,r6          // Add r4 to r6 (original r4) and store in r4
+0042 45bf addi r5,r5,-1         // Subtract one from multiplication loop counter
+0044 6dfa bnez r5,.multiplyloop // Keep multiplying until counter reaches zero
+          
+0046 413f addi r1,r1,-1         // Subtract one from the input parameter so it equals n-1 
+0048 27f0 j .factorialloop      // Keep going until the input param equals one
+          
+004a      .storeresult:
+          
+004a c700 lbi r7, U.DataArea
+004c 9794 slbi r7, L.DataArea
+          // Store the result to memory
+004e 8782 st r4,r7,2            // DataArea+2 = 0x02d0
+          
+          // Loop to add up a range of memory;
+          // complement the sum, then add it all
+          // on again to sum to 0xffffffff.
+          // r0:r1 is the accumulator.
+          
+0050 c500 lbi r5, 0   // starting location to read data from
+0052 c610 lbi r6, 0x10  // loop downcounter
+0054 c000 lbi r0, 0   // initialize accumulator
+0056 c100 lbi r1, 0   // initialize accumulator
+          
+0058      .addloop:
+0058 8d40 ld r2, r5, 0
+005a 8d62 ld r3, r5, 2
+005c 45a4 addi r5, r5, 4
+005e 3024 jal .Add32 // Call addition subroutine
+0060 46df addi r6, r6, -1
+0062 6ef4 bnez r6, .addloop
+          
+          // 1's complement the accumulator:
+0064 c6ff lbi r6, -1
+0066 d8c2 xor r0, r0, r6
+0068 d9c6 xor r1, r1, r6
+          
+006a c500 lbi r5, 0   // starting location to read data from
+006c c610 lbi r6, 0x10  // loop downcounter
+          
+006e      .subloop:
+006e 8d40 ld r2, r5, 0
+0070 8d62 ld r3, r5, 2
+0072 45a4 addi r5, r5, 4
+0074 300e jal .Add32 // Call addition subroutine
+0076 46df addi r6, r6, -1
+0078 6ef4 bnez r6, .subloop
+          
+007a c700 lbi r7, U.DataArea
+007c 9794 slbi r7, L.DataArea
+007e 8704 st r0, r7, 4    // DataArea+4 = 0xffff
+0080 8726 st r1, r7, 6    // DataArea+6 = 0xffff
+          
+0082 0000 halt
+          
+          /////////////////////////////////////
+          // Subroutine to do 32-bit addition:
+          // r0:r1 is the accumulator
+          // r2:r3 is added on
+          // r4 is a temp
+          // preserve r5, r6
+          
+0084      .Add32:
+0084 f970 sco r4, r1, r3
+0086 d964 add r1, r1, r3
+0088 d840 add r0, r0, r2
+008a d880 add r0, r0, r4
+008c 2f00 jr r7, 0        // return
+          
+008e 0000 halt
+0090 0000 halt
+0092 0000 halt
+          
+0094      .DataArea:
+0094 0000 halt          // 0x0001
+0096 0000 halt          // 0x02d0
+0098 0000 halt          // 0xffff
+009a 0000 halt          // 0xffff
+          
+          

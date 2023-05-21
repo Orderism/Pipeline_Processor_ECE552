@@ -1,0 +1,42 @@
+/*
+   CS/ECE 552 Spring '22
+  
+   Filename        : execute.v
+   Description     : This is the overall module for the execute stage of the processor.
+*/
+`default_nettype none
+module execute (
+   input wire [15:0]Read_rg_data_1,
+   input wire [15:0]Read_rg_data_2,
+   input wire [15:0]ext_result,
+   input wire [7:0]ALU_op,
+   input wire ALU_en,
+   input wire ALUsrc,
+   output wire [15:0] alu_result,
+   output wire Zero,
+   output wire Ofl
+);
+
+   // TODO: Your code here
+      
+   //mux for ALU input (inB = Imm number or Rd)?
+   wire [15:0]InA, InB;
+   assign InA=Read_rg_data_1;
+   assign InB=(ALUsrc)? ext_result : Read_rg_data_2;
+
+
+   
+   //ALU 
+   //module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Zero, Ofl, en);
+   /*  ALU_op[7:0]:
+    [7]:Cin, only be 1 when we start a subtraction
+    [3:6]:ALU oper, from 000 to 111, include shift, add, or, and, xor
+    [2]:invA   set 1 in SUB and SUBI
+    [1]:invB   set 1 in ANDN and ANDNI
+    [0]:signed or unsigned   */
+   alu alu(.InA(InA), .InB(InB), .Cin(ALU_op[7]), .Oper(ALU_op[6:3]), .invA(ALU_op[2]), .invB(ALU_op[1]), .sign(ALU_op[0]), .Out(alu_result), .Zero(Zero), .Ofl(Ofl), .en(ALU_en));
+   
+
+
+endmodule
+`default_nettype wire
