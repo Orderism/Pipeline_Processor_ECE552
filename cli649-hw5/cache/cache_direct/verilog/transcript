@@ -1,0 +1,32 @@
+# vsim "+addr_trace_file_name=//home//pzhang//cache//cache_direct//verification//mem.addr" -c mem_system_perfbench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 13:44:38 on Apr 23,2023
+# //  ModelSim DE 10.7c Aug 17 2018Linux 5.15.0-70-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading __work.mem_system_perfbench
+# Loading __work.mem_system_hier
+# Loading __work.clkrst
+# Loading __work.mem_system
+# Loading __work.cache
+# Loading __work.memc
+# Loading __work.memv
+# Loading __work.four_bank_mem
+# Loading __work.final_memory
+# Loading __work.dff
+# Loading __work.cache_controller
+# Loading __work.mem_system_ref
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ns  Iteration: 0  Instance: /mem_system_perfbench/DUT/m0/ccc/cache_hit_a File: cache_controller.v Line: 95
+# Error loading design
+# End time: 13:44:38 on Apr 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

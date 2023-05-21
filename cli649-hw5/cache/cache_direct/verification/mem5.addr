@@ -1,0 +1,3 @@
+1 0 240 21
+1 0 33008 222
+//write miss, dirty, address 240 with data value 21 will be written back to main memory
