@@ -1,0 +1,9 @@
+          // Original test: ./lena/hw4/problem6/jal_3.asm
+          // Author: lena
+          // Test source code follows
+          
+          
+          //test non-aligned offset
+0000 3001 jal 1
+0002 0800 nop
+0004 0000 halt
