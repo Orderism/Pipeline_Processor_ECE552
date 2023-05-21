@@ -1,0 +1,162 @@
+/filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shifter.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shifter.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/fullAdder1b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/fullAdder1b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module fullAdder1b
+
+Top level modules:
+	fullAdder1b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_right_logic.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_right_logic.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shift_right_logic
+
+Top level modules:
+	shift_right_logic
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_left.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_left.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shift_left
+
+Top level modules:
+	shift_left
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu_hier_bench.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu_hier_bench.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module alu_hier_bench
+
+Top level modules:
+	alu_hier_bench
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/rotate_left.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/rotate_left.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rotate_left
+
+Top level modules:
+	rotate_left
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/cla16b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/cla16b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla16b
+
+Top level modules:
+	cla16b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/xor2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/xor2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/or2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/or2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module or2
+
+Top level modules:
+	or2
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/or3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/or3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module or3
+
+Top level modules:
+	or3
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/xor3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/xor3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module xor3
+
+Top level modules:
+	xor3
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/and2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/and2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module and2
+
+Top level modules:
+	and2
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/cla4b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/cla4b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla4b
+
+Top level modules:
+	cla4b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/and3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/and3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module and3
+
+Top level modules:
+	and3
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nor2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nor2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/alu_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module alu_hier
+
+Top level modules:
+	alu_hier
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nor3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nor3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module nor3
+
+Top level modules:
+	nor3
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/not1.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/not1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_right_arith.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/shift_right_arith.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module shift_right_arith
+
+Top level modules:
+	shift_right_arith
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nand2.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nand2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nand3.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw2/hw2/hw2_2/nand3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module nand3
+
+Top level modules:
+	nand3
+
+} {} {}}
