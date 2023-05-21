@@ -1,0 +1,75 @@
+
+WISCalculator v1.0
+Author Derek Hower (drh5@cs.wisc.edu)
+Type "help" for more information
+
+Loading program...
+Executing...
+lbi r0, 111
+INUM:        0 PC: 0x0000 REG: 0 VALUE: 0x006f
+slbi r0, 82
+INUM:        1 PC: 0x0002 REG: 0 VALUE: 0x6f52
+lbi r1, 127
+INUM:        2 PC: 0x0004 REG: 1 VALUE: 0x007f
+slbi r1, -10
+INUM:        3 PC: 0x0006 REG: 1 VALUE: 0x7ff6
+lbi r2, -97
+INUM:        4 PC: 0x0008 REG: 2 VALUE: 0xff9f
+slbi r2, 73
+INUM:        5 PC: 0x000a REG: 2 VALUE: 0x9f49
+lbi r3, 101
+INUM:        6 PC: 0x000c REG: 3 VALUE: 0x0065
+slbi r3, 121
+INUM:        7 PC: 0x000e REG: 3 VALUE: 0x6579
+lbi r4, 97
+INUM:        8 PC: 0x0010 REG: 4 VALUE: 0x0061
+slbi r4, 84
+INUM:        9 PC: 0x0012 REG: 4 VALUE: 0x6154
+lbi r5, -51
+INUM:       10 PC: 0x0014 REG: 5 VALUE: 0xffcd
+slbi r5, -127
+INUM:       11 PC: 0x0016 REG: 5 VALUE: 0xcd81
+lbi r6, 91
+INUM:       12 PC: 0x0018 REG: 6 VALUE: 0x005b
+slbi r6, 29
+INUM:       13 PC: 0x001a REG: 6 VALUE: 0x5b1d
+lbi r7, 108
+INUM:       14 PC: 0x001c REG: 7 VALUE: 0x006c
+slbi r7, 70
+INUM:       15 PC: 0x001e REG: 7 VALUE: 0x6c46
+xori r1, r0, 15
+INUM:       16 PC: 0x0020 REG: 1 VALUE: 0x6f5d
+xori r3, r4, 13
+INUM:       17 PC: 0x0022 REG: 3 VALUE: 0x6159
+xori r7, r1, 14
+INUM:       18 PC: 0x0024 REG: 7 VALUE: 0x6f53
+xori r0, r0, 10
+INUM:       19 PC: 0x0026 REG: 0 VALUE: 0x6f58
+xori r7, r7, 15
+INUM:       20 PC: 0x0028 REG: 7 VALUE: 0x6f5c
+xori r1, r7, 3
+INUM:       21 PC: 0x002a REG: 1 VALUE: 0x6f5f
+xori r2, r1, 9
+INUM:       22 PC: 0x002c REG: 2 VALUE: 0x6f56
+xori r3, r0, 15
+INUM:       23 PC: 0x002e REG: 3 VALUE: 0x6f57
+xori r5, r4, 8
+INUM:       24 PC: 0x0030 REG: 5 VALUE: 0x615c
+xori r6, r0, 0
+INUM:       25 PC: 0x0032 REG: 6 VALUE: 0x6f58
+xori r6, r3, 10
+INUM:       26 PC: 0x0034 REG: 6 VALUE: 0x6f5d
+xori r3, r5, 9
+INUM:       27 PC: 0x0036 REG: 3 VALUE: 0x6155
+xori r7, r5, 1
+INUM:       28 PC: 0x0038 REG: 7 VALUE: 0x615d
+xori r5, r6, 3
+INUM:       29 PC: 0x003a REG: 5 VALUE: 0x6f5e
+xori r0, r2, 9
+INUM:       30 PC: 0x003c REG: 0 VALUE: 0x6f5f
+xori r3, r4, 10
+INUM:       31 PC: 0x003e REG: 3 VALUE: 0x615e
+halt
+program halted
+INUM:       32 PC: 0x0040
+Program Finished

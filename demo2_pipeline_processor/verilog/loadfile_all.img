@@ -1,0 +1,101 @@
+Reading line: // seed 4
+Reading line: lbi r0, 111 // icount 0
+Reading line: slbi r0, 82 // icount 1
+Reading line: lbi r1, 127 // icount 2
+Reading line: slbi r1, 246 // icount 3
+Reading line: lbi r2, 159 // icount 4
+Reading line: slbi r2, 73 // icount 5
+Reading line: lbi r3, 101 // icount 6
+Reading line: slbi r3, 121 // icount 7
+Reading line: lbi r4, 97 // icount 8
+Reading line: slbi r4, 84 // icount 9
+Reading line: lbi r5, 205 // icount 10
+Reading line: slbi r5, 129 // icount 11
+Reading line: lbi r6, 91 // icount 12
+Reading line: slbi r6, 29 // icount 13
+Reading line: lbi r7, 108 // icount 14
+Reading line: slbi r7, 70 // icount 15
+Reading line: xori r1, r0, 15 // icount 16
+Reading line: xori r3, r4, 13 // icount 17
+Reading line: xori r7, r1, 14 // icount 18
+Reading line: xori r0, r0, 10 // icount 19
+Reading line: xori r7, r7, 15 // icount 20
+Reading line: xori r1, r7, 3 // icount 21
+Reading line: xori r2, r1, 9 // icount 22
+Reading line: xori r3, r0, 15 // icount 23
+Reading line: xori r5, r4, 8 // icount 24
+Reading line: xori r6, r0, 0 // icount 25
+Reading line: xori r6, r3, 10 // icount 26
+Reading line: xori r3, r5, 9 // icount 27
+Reading line: xori r7, r5, 1 // icount 28
+Reading line: xori r5, r6, 3 // icount 29
+Reading line: xori r0, r2, 9 // icount 30
+Reading line: xori r3, r4, 10 // icount 31
+Reading line: halt // icount 32
+@0
+c0
+6f
+90
+52
+c1
+7f
+91
+f6
+c2
+9f
+92
+49
+c3
+65
+93
+79
+c4
+61
+94
+54
+c5
+cd
+95
+81
+c6
+5b
+96
+1d
+c7
+6c
+97
+46
+50
+2f
+54
+6d
+51
+ee
+50
+0a
+57
+ef
+57
+23
+51
+49
+50
+6f
+54
+a8
+50
+c0
+53
+ca
+55
+69
+55
+e1
+56
+a3
+52
+09
+54
+6a
+00
+00

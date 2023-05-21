@@ -1,0 +1,7 @@
+//home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_4_flush.asm SUCCESS CPI:4.4 CYCLES:22 ICOUNT:5 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_1_ex2ex.asm SUCCESS CPI:3.7 CYCLES:15 ICOUNT:4 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_2_mem2ex.asm SUCCESS CPI:2.6 CYCLES:13 ICOUNT:5 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_2_memtoex.asm SUCCESS CPI:2.8 CYCLES:17 ICOUNT:6 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_3_mem2ex.asm SUCCESS CPI:2.8 CYCLES:17 ICOUNT:6 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_4_jalr_forwarding.asm SUCCESS CPI:2.9 CYCLES:23 ICOUNT:8 IHITRATE: 0 DHITRATE: 0
+/home/pzhang/ece552_repo/ece552/demo2/verification/mytests/p1_5_b_for.asm SUCCESS CPI:3.0 CYCLES:15 ICOUNT:5 IHITRATE: 0 DHITRATE: 0
