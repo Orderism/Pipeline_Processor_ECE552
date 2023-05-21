@@ -1,0 +1,4 @@
+0 1 10096 0
+0 1 6000 0
+//read miss, dirty = 0
+//Initially, cache is empty, therefore it will be a miss

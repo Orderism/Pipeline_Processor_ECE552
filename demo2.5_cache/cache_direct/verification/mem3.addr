@@ -1,0 +1,5 @@
+1 0 240 21
+1 0 33008 222
+0 1 246 0
+0 1 33014 0
+//read miss, clean; ~(hit & valid) & ~dirty

@@ -1,0 +1,7 @@
+1 0 10096 10
+1 0 10098 9
+1 0 6000 10
+1 0 6000 9
+1 0 10092 8
+1 0 10090 7
+//write miss, dirty = 0, test if hit is working on our code

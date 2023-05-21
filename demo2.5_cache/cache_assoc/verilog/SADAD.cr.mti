@@ -1,0 +1,113 @@
+/filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_perfbench.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_perfbench.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mem_system_perfbench
+
+Top level modules:
+	mem_system_perfbench
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_ref.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_ref.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mem_system_ref
+
+Top level modules:
+	mem_system_ref
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mem_system
+
+Top level modules:
+	mem_system
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/cache.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/cache.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/four_bank_mem.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/four_bank_mem.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module four_bank_mem
+
+Top level modules:
+	four_bank_mem
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/cache_controller.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/cache_controller.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cache_controller
+
+Top level modules:
+	cache_controller
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_randbench.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_randbench.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mem_system_randbench
+
+Top level modules:
+	mem_system_randbench
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/dff.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/dff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memc.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memc.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memc.syn.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memc.syn.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/final_memory.syn.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/final_memory.syn.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module final_memory
+
+Top level modules:
+	final_memory
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/final_memory.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/final_memory.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module final_memory
+
+Top level modules:
+	final_memory
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/mem_system_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mem_system_hier
+
+Top level modules:
+	mem_system_hier
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memv.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memv.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memv.syn.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw5/cache/cache_assoc/verilog/memv.syn.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}}
