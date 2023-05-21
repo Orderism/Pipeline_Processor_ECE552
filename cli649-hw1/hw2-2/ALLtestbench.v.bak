@@ -1,0 +1,50 @@
+module cla4tb();
+reg [3:0]a, b; 
+reg cin;
+wire cout, s;
+reg [4:0]Sumcalc;
+
+cla4b ca1(.inA(a), .inB(b), .cIn(cin), .sum(s), .cOut(cout));
+
+initial begin
+a=4'b0000;
+b=4'b0000;
+cin=1'b0;
+
+#10;
+
+a[3:0]=$random;
+b[3:0]=$random;
+cin=$random;
+Sumcalc= a+b+cin;
+#10;
+
+a[3:0]=$random;
+b[3:0]=$random;
+cin=$random;;
+Sumcalc= a+b+cin;
+#10;
+
+a[3:0]=$random;
+b[3:0]=$random;
+cin=$random;;
+Sumcalc= a+b+cin;
+#10;
+
+a[3:0]=$random;
+b[3:0]=$random;
+cin=$random;;
+Sumcalc= a+b+cin;
+
+end
+
+
+always @(a,b,cin) begin
+if (Sumcalc=={cout,s}) begin
+$display("grt,bro");
+end
+else begin 
+$display("fxxk");
+end
+end
+endmodule

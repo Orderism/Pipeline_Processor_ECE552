@@ -1,0 +1,43 @@
+/filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux4_1.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux4_1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw1/hw2-2/cla16b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw2-2/cla16b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla16b
+
+Top level modules:
+	cla16b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux4_1_4b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux4_1_4b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mux4_1_4b
+
+Top level modules:
+	mux4_1_4b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw1/hw2-2/fullAdder1b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw2-2/fullAdder1b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module fullAdder1b
+
+Top level modules:
+	fullAdder1b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw1/hw2-2/cla4b.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw2-2/cla4b.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cla4b
+
+Top level modules:
+	cla4b
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux2_1.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw1/hw1-1/mux2_1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}}
