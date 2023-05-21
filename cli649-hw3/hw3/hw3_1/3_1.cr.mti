@@ -1,0 +1,92 @@
+/filespace/c/cli649/ece552/chunyuhw3/hw3_1/rf.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/rf.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/tb_rf_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/tb_rf_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module tb_rf_hier
+
+Top level modules:
+	tb_rf_hier
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/B16register.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/B16register.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module B16register
+
+Top level modules:
+	B16register
+
+} {} {}} /filespace/c/cli649/ece552/chunyuhw3/hw3_1/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/rf.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/rf.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/dff.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/dff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /filespace/c/cli649/ece552/chunyuhw3/hw3_1/decoder3_8.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/decoder3_8.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module decoder3_8
+
+Top level modules:
+	decoder3_8
+
+} {} {}} /filespace/c/cli649/ece552/chunyuhw3/hw3_1/dff.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/dff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/clkrst.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/clkrst.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/err_check.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/err_check.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module err_check
+
+Top level modules:
+	err_check
+
+} {} {}} /filespace/c/cli649/ece552/chunyuhw3/hw3_1/tb_rf_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/tb_rf_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module tb_rf_hier
+
+Top level modules:
+	tb_rf_hier
+
+} {} {}} /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/rf_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/cli649-hw3/hw3/hw3_1/rf_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rf_hier
+
+Top level modules:
+	rf_hier
+
+} {} {}} /filespace/c/cli649/ece552/chunyuhw3/hw3_1/rf_hier.v {1 {vlog -work work -vopt -stats=none /filespace/c/cli649/ece552/chunyuhw3/hw3_1/rf_hier.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rf_hier
+
+Top level modules:
+	rf_hier
+
+} {} {}}
